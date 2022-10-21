@@ -18,7 +18,7 @@ This image is built on GitHub automatically any time a commit is made or merged 
 3. Build the image:
 
    ```shell
-   podman build -t centos7-ansible .
+   podman build --file Containerfile --tag centos7-ansible .
    ```
 
 ## How to Use
